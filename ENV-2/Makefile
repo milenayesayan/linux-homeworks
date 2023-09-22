@@ -1,5 +1,5 @@
 all: main.o complex.o sort.o  finish clear
- main.o: main.cpp
+ main.o: main.cpp 
         g++ -c main.cpp
          
  complex.o: complex.cpp
