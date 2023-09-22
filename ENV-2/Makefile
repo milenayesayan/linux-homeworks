@@ -6,7 +6,7 @@
  
  
  complex.o: complex.cpp
-      g++ -c complex.cpp
+          g++ -c complex.cpp
         
            
  sort.o: sort.cpp 
@@ -16,6 +16,5 @@
  finish:
  g++ main.o complex.o sort.o -o main
 
-
- clear: 
- rm -f *.o
+  clear: 
+   rm -f *.o
