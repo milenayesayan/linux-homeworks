@@ -1,0 +1,10 @@
+All: simple_copy  clean
+
+read_file:
+	g++   simple_copy.cpp -o simple_copy
+
+
+clean:
+	 rm -f  *.o
+
+
