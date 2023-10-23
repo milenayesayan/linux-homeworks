@@ -1,10 +1,7 @@
-All: read_file
+All:  hacker-rm clean
 
-read_file: read_file.o
-	g++ -o read_file read_file.o
-
-read_file.o: main.cpp
-	g++ -c raed_file.cpp
+hacker-rm:
+	g++ hacker-rm.cpp -o hacker-rm
 
 clean:
-	rm *.o read_file
+	rm -f *.o
